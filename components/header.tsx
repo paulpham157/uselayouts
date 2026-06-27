@@ -21,7 +21,11 @@ const menuItems = [
   { name: "Components", href: "/docs/components/3d-book" },
   { name: "Documentation", href: "/docs/introduction" },
   { name: "Meet Creator", href: "https://urvish.in" },
+  { name: "Become a Sponsor", href: "https://github.com/sponsors/iurvish" },
+
 ];
+
+
 
 const Header = () => {
   const [menuState, setMenuState] = useState(false);
